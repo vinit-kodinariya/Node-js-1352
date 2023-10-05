@@ -6,7 +6,7 @@ const { upload } = require("../../middlewares/upload");
 
 const router = express.Router();
 
-//create category
+/* ----------------------------- create category ---------------------------- */
 router.post(
     "/create-category",
     upload.single("image"),
@@ -14,20 +14,20 @@ router.post(
     categoryController.createCategory
 );
 
-//list category
+/* ------------------------------ list category ----------------------------- */
 router.get(
     "/list-category",
     validate(categoryValidation.listCategory),
     categoryController.listCategory
 );
 
-//delete category
+/* ----------------------------- delete category ---------------------------- */
 router.delete(
     "/delete-category/:Id",
     categoryController.deleteCategory
 );
 
-//update category
+/* ----------------------------- update category ---------------------------- */
 router.put(
     "/update-category/:categoryId",
     upload.single("image"),
