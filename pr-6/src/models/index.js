@@ -1,0 +1,8 @@
+module.exports.Coach = require("./coach.model")
+module.exports.Contact = require("./contact.model")
+module.exports.News= require("./news.model")
+module.exports.Player= require("./player.model")
+module.exports.Result= require("./result.model")
+module.exports.Category= require("./category.model")
+module.exports.Gallery= require("./gallery.model")
+module.exports.Tournament= require("./tournament.model")

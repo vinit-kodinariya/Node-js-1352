@@ -1,0 +1,8 @@
+module.exports.coachController=require("./coach.controller")
+module.exports.contactController=require("./contact.controller")
+module.exports.newsController=require("./news.controller")
+module.exports.playerController=require("./player.controller")
+module.exports.resultController=require("./result.controller")
+module.exports.categoryController=require("./category.controller")
+module.exports.galleryController=require("./gallery.controller")
+module.exports.tournamentController=require("./tournament.controller")
